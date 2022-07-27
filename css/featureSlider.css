@@ -9,14 +9,14 @@ body {
 }
 */
 #tabs {
-    width: 700px;
+    width: 800px;
     display: flex;
     position: relative;
     margin: 0 auto;
     margin-top: 50px;
-    height: auto;
+    height: 600px;
     min-height: 200px;
-    max-height: 600px;
+    max-height: 900px;
     overflow: hidden;
   }
   
@@ -27,7 +27,7 @@ body {
     padding: 0;
     list-style-type: none;
     vertical-align: top;
-    width: 50%;
+    width: 60%;
   }
   
   ul li a.Feature {
@@ -48,10 +48,12 @@ body {
   
   ul li:focus, a.Feature:focus {
     outline: none;
+    
   }
   
   ul li:nth-child(1) a.Feature {
     border-top: none;
+    
   }
   
   ul li a.Feature.active {
@@ -72,15 +74,15 @@ body {
   
   .tag {
     position: relative;
-    width: 100%;  
+    width: 100%;
   }
   
-  .icon {
+  .iconFeature {
     position: relative;
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: #c7c7c7;
+    background: darkorange;
     border-radius: 100%;
     vertical-align: middle;
   }
@@ -90,7 +92,7 @@ body {
     width: 18px;
     height: 18px;
     vertical-align: middle;
-    border: solid 2px #7b7b7b;
+    border: solid 2px #FFF;
     border-radius: 5px;
     top: 50%;
     left: 50%;
@@ -104,7 +106,7 @@ body {
   .circle {
     position: absolute;
     padding: 2px;
-    border: solid 2px #7b7b7b;
+    border: solid 2px #FFF;
     border-radius: 100%;
     top: 50%;
     left: 50%;
@@ -121,7 +123,7 @@ body {
     font-weight: bold;
     padding: 0 10px;
     vertical-align: middle;
-    color: #7b7b7b;
+    color: #0078B3/*#7b7b7b;*/
   }
   
   .addon {
@@ -141,14 +143,14 @@ body {
   }
   
   .browser {
-    width: 45%;
-    height: 95%;
+    width: 270px;
+    height: 510px;
     position: absolute;
     border-style: solid;
-    border-width: 2px 0 2px 2px;
-    border-color: #7b7b7b transparent #7b7b7b #7b7b7b;
+    border-width: 2px 2px 2px 2px;
+    border-color: #363636 #363636 #363636 #363636;
     right: 0;
-    border-radius: 10px 0 0 10px;
+    border-radius: 30px 30px 30px 30px;
     overflow: hidden;
   }
   
@@ -173,7 +175,7 @@ body {
   }
   
   .dot:nth-child(1) {
-    margin-left: 7px;
+    margin-left: 119px;
   }
   
   #tabs-1, #tabs-2, #tabs-3 {
@@ -185,7 +187,7 @@ body {
   }
   
   #tabs-1 {
-    background: #9b9b9b;
+    /*background: #9b9b9b;*/
   }
   
   #tabs-2 {

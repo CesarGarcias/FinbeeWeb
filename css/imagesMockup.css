@@ -1,6 +1,7 @@
 .conBorde {
     display: flex;
     position: relative;
+    top: 20px;
     left: 0px;
     padding: 0px;
     width: 250px !important;
@@ -8,7 +9,13 @@
     border: 2px solid #363636;
     border-radius: 30px;
     box-shadow: 10px 10px 50px -5px rgb(244, 244, 244); /*1rem 0 1rem*/
-    
+}
+
+.caracteristicas {
+  width: 270px;
+  height: 490px;
+  margin-top: 15px;
+  border-radius: 0 0 30px 30px;
 }
 
 @-webkit-keyframes movimiento-diagonal {

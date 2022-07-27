@@ -21,13 +21,15 @@
 #navbarSupportedContent li {
 	list-style-type: none;
 	float: left;
+	width: 300px;
 }
 #navbarSupportedContent ul li a{
 	color: rgba(54, 54, 54, 0.5); /*Color de letras no seleccionadas*/
     text-decoration: none;
+	text-align: center;
     font-size: 15px;
     display: block;
-    padding: 20px 20px;
+    padding: 20px 0px; /*20px 20px*/
     transition-duration:0.6s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     position: relative;
@@ -167,7 +169,7 @@ width:100%;
 .navpos {
     position: fixed;
     width: 100%;
-	z-index: 1;
+	z-index: 3;
 }
 
 .navLogo {
