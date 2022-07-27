@@ -1,0 +1,47 @@
+.wrapperP {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background: linear-gradient(to bottom, darkorange 30%/*#FF8C00*/, white); /*#FF7823*/
+    margin-bottom: 50px;
+}
+
+.one {
+  background: linear-gradient(top, red, white);
+  grid-column: 1/3;
+  grid-row: 2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.two {
+  grid-column: 3 / 5;
+  grid-row: 2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  display: block;
+}
+
+.generalTextTitle {
+  color: white;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.generalText {
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background: linear-gradient(to bottom, white, grey); /*#FF7823*/ 
+}
