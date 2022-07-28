@@ -8,6 +8,11 @@ body {
   letter-spacing: 1px;
 }
 */
+
+.headerPrueba {
+  border: 3px;
+}
+
 #tabs {
     width: 800px;
     display: flex;
