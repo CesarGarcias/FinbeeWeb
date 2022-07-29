@@ -1,6 +1,7 @@
 /*Por que elegir finbee*/
 
 .wrapperElegir {
+    width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -9,6 +10,7 @@
 
 .oneM {
   /*color: #FF8C00;*/
+  width: 100%;
   grid-column: 1/8;
   grid-row: 1;
   text-align: center;

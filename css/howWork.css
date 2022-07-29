@@ -1,5 +1,6 @@
 /*Sección de: ¿como funciona?*/
 .wrapperHowWork {
+    width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -19,6 +20,7 @@
   }
     
   .wrapperInHowWork { /*NO se usa esta clase gg*/
+    width: 90%;
     position: absolute;
     display: grid;
     margin-top: 0px;
