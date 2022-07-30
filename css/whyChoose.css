@@ -2,7 +2,8 @@
 
 .wrapperElegir {
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background: rgb(244,244,244);
@@ -10,14 +11,16 @@
 
 .oneM {
   /*color: #FF8C00;*/
+  /*grid-column: 1/8;
+  grid-row: 1;*/
   width: 100%;
-  grid-column: 1/8;
-  grid-row: 1;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
   
 .card {
@@ -61,7 +64,7 @@
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
   z-index: 2;
-  margin-bottom: 30px;
+  margin-bottom: 15%;
 }
   
 .backside {
@@ -113,8 +116,8 @@
 }
   
 .frontside .card .card-body .imggeneral {
-    width: 120px;
-    height: 120px;
+    width: 50%;
+    height: 50%;
     border-radius: 10%;
 }
   
@@ -134,7 +137,7 @@
 }
   
 .margen {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 25px;
 }
   

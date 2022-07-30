@@ -8,13 +8,16 @@ body {
   letter-spacing: 1px;
 }
 */
+.principalDiv {
+  background: rgb(255,255,255);
+}
 
 .headerPrueba {
   border: 3px;
 }
 
 #tabs {
-    width: 800px;
+    width: 48%;
     display: flex;
     position: relative;
     margin: 0 auto;

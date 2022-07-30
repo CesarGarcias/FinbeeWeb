@@ -12,8 +12,8 @@
 }
 
 .caracteristicas {
-  width: 270px;
-  height: 490px;
+  width: 100%;/*270px;*/
+  height: 100%;/*490px;*/
   margin-top: 15px;
   border-radius: 0 0 30px 30px;
 }
