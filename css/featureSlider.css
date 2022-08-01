@@ -137,7 +137,7 @@ body {
     top: -25px;
     margin-left: 70px;
     letter-spacing: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #9b9b9b;
     opacity: 0;
     font-family: 'Open Sans';
@@ -201,4 +201,9 @@ body {
   
   #tabs-3 {
     background: #1b1b1b;
+  }
+
+  .backColor {
+    background-color:  #FFF;
+    padding-top: 20px;
   }

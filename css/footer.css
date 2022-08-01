@@ -6,7 +6,9 @@
 	display: grid;
 	align-items: center;
 	justify-content: center;
+    background-color: rgb(244, 244, 244);
 }
+
 @media (max-width: 767px) {
     .deneb_footer .widget_wrapper .widget {
         margin-bottom: 40px;
@@ -91,7 +93,7 @@
 }
 
 .deneb_footer .copyright_area {
-    background: #edecf0;
+    background: #FFF;
     padding: 10px 0;
 }
 .deneb_footer .copyright_area .copyright_text {
@@ -104,6 +106,7 @@
     color: #feb000;
 }
 .deneb_cta .cta_wrapper {
+    background: #FFF;
     padding: 45px 50px 42px;
     max-width: 970px;
     border-radius: 15px;
@@ -115,11 +118,10 @@
     background-image: -ms-linear-gradient(0deg, #FF8C00 0%, #FF7823 100%);
     box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
     z-index: 1;
-	
 }
 .deneb_cta .cta_wrapper:after {
     content: "";
-    background: url(../images/shape/cta_shape.png) no-repeat;
+    background: no-repeat;/*url(../images/shape/cta_shape.png) no-repeat;*/
     background-position: bottom;
     width: 100%;
     height: 100%;
@@ -191,3 +193,4 @@
 .info{
 	width: 80px;
 }
+

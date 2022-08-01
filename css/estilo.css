@@ -4,7 +4,8 @@
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     background: linear-gradient(to bottom, darkorange 30%/*#FF8C00*/, white); /*#FF7823*/
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+
 }
 
 .one {
@@ -14,6 +15,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 70px;
   display: block;
 }
 
@@ -24,6 +26,7 @@
   margin-right: auto;
   margin-bottom: auto;
   display: block;
+  margin-bottom: 50px;
 }
 
 .generalTextTitle {
